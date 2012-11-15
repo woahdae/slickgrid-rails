@@ -36,7 +36,7 @@ class RemoteModel
     $.ajax
       url: args.item.path
       type: 'PUT'
-      data: args.item
+      data: {row: args.item}
       dataType: 'json'
       complete: =>
         @onDataWritten.notify()
