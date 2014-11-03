@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{SlickGrid Integration for Rails 3.x}
   gem.homepage      = "https://github.com/madvertise/slickgrid-rails"
 
-  gem.add_dependency "railties", "~> 3.0"
+  gem.add_dependency "railties", "~> 4.0"
 
   gem.add_dependency "coffee-rails"
   gem.add_dependency "jquery-plugins-rails"
